@@ -1,0 +1,2 @@
+In the MySQL database, keys must use snake_case (e.g., user_name).
+In the backend and frontend code, keys should use camelCase (e.g., userName).

@@ -1,0 +1,161 @@
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+model User {
+  id              Int                   @id @default(autoincrement())
+  full_name       String                // not null
+  email           String?               @unique
+  phone           String?
+  avatar_url      String?
+  role            String?               @default("user")
+  created_at      DateTime?             @default(now())
+  updated_at      DateTime?             @updatedAt
+
+  authentications UserAuthentication[]  // 1-n relation
+  contributed_meanings  WordMeaning[]         // Meanings contributed by this user
+  learning_items   UserLearningItem[]
+  @@map("users")
+}
+
+model UserAuthentication {
+  id            Int       @id @default(autoincrement())
+  user_id       Int
+  provider      Provider
+  provider_id   String?
+  email         String
+  password_hash String?
+  access_token  String?
+  refresh_token String?
+  last_login    DateTime?
+  created_at    DateTime? @default(now())
+
+  user          User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  @@unique([user_id, provider])
+  @@map("user_authentications")
+}
+
+enum Provider {
+  local
+  google
+  github
+  facebook
+}
+model Word {
+  id                  Int      @id @default(autoincrement())
+  word                String   @unique @db.VarChar(100)
+  part_of_speech      String?  @db.VarChar(50)
+
+
+  // Pronunciation
+  uk_ipa              String?  @db.VarChar(100)
+  uk_audio_url        String?  @db.VarChar(500)
+  us_ipa              String?  @db.VarChar(100)
+  us_audio_url        String?  @db.VarChar(500)
+
+  // Quick translations (JSON array)
+  quick_translations  Json?
+
+  // Metadata
+  created_at          DateTime @default(now())
+  updated_at          DateTime @updatedAt
+
+  // Relations
+  meanings            WordMeaning[]
+
+  @@index([word], map: "idx_word")
+  @@index([part_of_speech], map: "idx_part_of_speech")
+  @@map("words")
+}
+
+model WordMeaning {
+  id                    Int       @id @default(autoincrement())
+  word_id               Int
+  meaning_id            String    @db.VarChar(50)
+
+  // Core meaning data
+  definition            String    @db.Text
+  vietnamese_definition String    @db.Text
+  grammar               String?   @db.VarChar(50)
+  meaning_level         String?   @db.VarChar(10)
+
+  // Examples (JSON array)
+  examples              Json?
+
+  // Thesaurus (JSON object - optional)
+  thesaurus             Json?
+
+  // Metadata
+  display_order         Int       @default(0)
+  source                Source    @default(cambridge)
+  contributor_user_id   Int?
+  created_at            DateTime  @default(now())
+
+  // Relations
+  word                  Word      @relation(fields: [word_id], references: [id], onDelete: Cascade)
+  contributor           User?     @relation(fields: [contributor_user_id], references: [id], onDelete: SetNull)
+  user_learning_items   UserLearningItem[]
+
+  @@index([word_id, display_order], map: "idx_word_meanings")
+  @@index([meaning_id], map: "idx_meaning_id")
+  @@index([grammar], map: "idx_grammar")
+  @@index([meaning_level], map: "idx_meaning_level")
+  @@index([source], map: "idx_source")
+  @@map("word_meanings")
+}
+
+enum Source {
+  cambridge
+  freedict
+  user
+}
+model UserLearningItem {
+  id                Int       @id @default(autoincrement())
+  user_id           Int
+  meaning_id        Int
+
+  // Study progress
+  confidence_level  Int       @default(0)
+  study_status      StudyStatus @default(new)
+
+  // Statistics
+  times_studied     Int       @default(0)
+  times_correct     Int       @default(0)
+  times_wrong       Int       @default(0)
+  streak_count      Int       @default(0)
+
+  // Spaced repetition
+  last_studied_at   DateTime?
+  next_review_at    DateTime?
+  review_interval_days Int    @default(3)
+
+  // Metadata
+  added_at          DateTime  @default(now())
+  notes             String?
+  priority          Int       @default(5)
+  is_favorite       Boolean   @default(false)
+
+  // Relations
+  user              User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  meaning           WordMeaning @relation(fields: [meaning_id], references: [id], onDelete: Cascade)
+
+  @@unique([user_id, meaning_id], name: "unique_user_meaning")
+  @@index([user_id, study_status], name: "idx_user_status")
+  @@index([user_id, next_review_at], name: "idx_next_review")
+  @@index([user_id, is_favorite], name: "idx_favorites")
+  @@map("user_learning_items")
+}
+
+enum StudyStatus {
+  new
+  learning
+  reviewing
+  mastered
+}

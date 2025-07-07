@@ -1,0 +1,342 @@
+{
+  "success": true,
+  "data": {
+    "word": "girl",
+    "pronunciation": {
+      "uk": {
+        "ipa": "ɡɜːl",
+        "audioUrl": "https://dictionary.cambridge.org/media/english/uk_pron/u/ukg/ukgir/ukgiraf007.mp3"
+      },
+      "us": {
+        "ipa": "ɡɝːl",
+        "audioUrl": "https://dictionary.cambridge.org/media/english/us_pron/g/gir/girl_/girl.mp3"
+      }
+    },
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "meanings": [
+      {
+        "id": "freedict-0",
+        "grammar": "noun",
+        "definition": "A female child, adolescent, or a young woman.",
+        "examples": []
+      },
+      {
+        "id": "freedict-1",
+        "grammar": "noun",
+        "definition": "A young female animal.",
+        "examples": []
+      },
+      {
+        "id": "freedict-2",
+        "grammar": "noun",
+        "definition": "(sometimes offensive) A woman, especially a young woman",
+        "examples": []
+      },
+      {
+        "id": "freedict-3",
+        "grammar": "noun",
+        "definition": "A female servant; a maid. (see usage notes)",
+        "examples": []
+      },
+      {
+        "id": "freedict-4",
+        "grammar": "noun",
+        "definition": "A queen (the playing card.)",
+        "examples": []
+      },
+      {
+        "id": "freedict-5",
+        "grammar": "noun",
+        "definition": "A term of endearment. (see usage notes)",
+        "examples": []
+      },
+      {
+        "id": "freedict-6",
+        "grammar": "noun",
+        "definition": "One's girlfriend.",
+        "examples": []
+      },
+      {
+        "id": "freedict-7",
+        "grammar": "noun",
+        "definition": "One's daughter.",
+        "examples": ["Your girl turned up on our doorstep."]
+      },
+      {
+        "id": "freedict-8",
+        "grammar": "noun",
+        "definition": "A roebuck two years old.",
+        "examples": []
+      },
+      {
+        "id": "freedict-9",
+        "grammar": "noun",
+        "definition": "Cocaine, especially in powder form.",
+        "examples": []
+      },
+      {
+        "id": "freedict-10",
+        "grammar": "noun",
+        "definition": "(somewhat childish) A female (tree, gene, etc).",
+        "examples": []
+      },
+      {
+        "id": "freedict-11",
+        "grammar": "noun",
+        "definition": "A boy or man who is weak or sentimental.",
+        "examples": ["Don't be such a girl!"],
+        "thesaurus": {
+          "synonyms": ["Jessie", "sissy", "wimp"],
+          "antonyms": []
+        }
+      },
+      {
+        "id": "freedict-12",
+        "grammar": "verb",
+        "definition": "To feminize or girlify; to gender as a girl or as for girls.",
+        "examples": []
+      },
+      {
+        "id": "freedict-13",
+        "grammar": "verb",
+        "definition": "(somewhat informal) To staff with or as a girl or girls.",
+        "examples": []
+      },
+      {
+        "id": "ID_00013599_01",
+        "level": "A1",
+        "grammar": "C",
+        "definition": "a female child or young woman, especially one still at school:",
+        "examples": ["Two girls showed us round the classrooms."],
+        "thesaurus": {
+          "synonyms": ["child", "boy", "girl", "kid", "kiddie", "little one"],
+          "antonyms": []
+        }
+      },
+      {
+        "id": "ID_00013599_02",
+        "level": "A1",
+        "grammar": "C",
+        "definition": "a daughter:",
+        "examples": ["We have two girls.", "My little girl is five."]
+      },
+      {
+        "id": "ID_00013599_03",
+        "grammar": "Cusually plural",
+        "definition": "a woman worker, especially when seen as one of a group:",
+        "examples": ["shop/office girls"]
+      },
+      {
+        "id": "ID_00013599_04_panel",
+        "definition": "a group of female friends:",
+        "examples": ["I'm going out with the girls tonight."]
+      },
+      {
+        "id": "CACD_00007475_01",
+        "definition": "a female child or, more generally, a female of any age:",
+        "examples": [
+          "Two little girls showed us around the kindergarten.",
+          "The girls’ basketball team is undefeated."
+        ]
+      },
+      {
+        "id": "CACD_00007475_02",
+        "definition": "Girl sometimes means daughter:",
+        "examples": ["We have two girls, a six-year-old and an eight-year-old."]
+      }
+    ],
+    "vietnamese": {
+      "quickTranslation": ["con gái", "Trẻ em nữ, thanh thiếu niên hoặc phụ nữ trẻ."],
+      "translatedMeanings": [
+        {
+          "id": "freedict-0",
+          "originalDefinition": "A female child, adolescent, or a young woman.",
+          "vietnameseDefinition": "Trẻ em gái, thanh thiếu niên hoặc phụ nữ trẻ.",
+          "grammar": "noun",
+          "translatedExamples": []
+        },
+        {
+          "id": "freedict-1",
+          "originalDefinition": "A young female animal.",
+          "vietnameseDefinition": "Một con vật cái non.",
+          "grammar": "noun",
+          "translatedExamples": []
+        },
+        {
+          "id": "freedict-2",
+          "originalDefinition": "(sometimes offensive) A woman, especially a young woman",
+          "vietnameseDefinition": "(đôi khi xúc phạm) Một phụ nữ, đặc biệt là một phụ nữ trẻ",
+          "grammar": "noun",
+          "translatedExamples": []
+        },
+        {
+          "id": "freedict-3",
+          "originalDefinition": "A female servant; a maid. (see usage notes)",
+          "vietnameseDefinition": "Một người hầu nữ; một người giúp việc. (xem ghi chú sử dụng)",
+          "grammar": "noun",
+          "translatedExamples": []
+        },
+        {
+          "id": "freedict-4",
+          "originalDefinition": "A queen (the playing card.)",
+          "vietnameseDefinition": "Queen (quân bài.)",
+          "grammar": "noun",
+          "translatedExamples": []
+        },
+        {
+          "id": "freedict-5",
+          "originalDefinition": "A term of endearment. (see usage notes)",
+          "vietnameseDefinition": "Một thuật ngữ thân mật. (xem ghi chú sử dụng)",
+          "grammar": "noun",
+          "translatedExamples": []
+        },
+        {
+          "id": "freedict-6",
+          "originalDefinition": "One's girlfriend.",
+          "vietnameseDefinition": "Bạn gái của một người.",
+          "grammar": "noun",
+          "translatedExamples": []
+        },
+        {
+          "id": "freedict-7",
+          "originalDefinition": "One's daughter.",
+          "vietnameseDefinition": "Con gái của một người.",
+          "grammar": "noun",
+          "translatedExamples": [
+            {
+              "original": "Your girl turned up on our doorstep.",
+              "vietnamese": "Cô gái của anh xuất hiện trước cửa nhà chúng tôi."
+            }
+          ]
+        },
+        {
+          "id": "freedict-8",
+          "originalDefinition": "A roebuck two years old.",
+          "vietnameseDefinition": "Một roebuck hai tuổi.",
+          "grammar": "noun",
+          "translatedExamples": []
+        },
+        {
+          "id": "freedict-9",
+          "originalDefinition": "Cocaine, especially in powder form.",
+          "vietnameseDefinition": "Cocaine, đặc biệt là ở dạng bột.",
+          "grammar": "noun",
+          "translatedExamples": []
+        },
+        {
+          "id": "freedict-10",
+          "originalDefinition": "(somewhat childish) A female (tree, gene, etc).",
+          "vietnameseDefinition": "(hơi trẻ con) Một con cái (cây, gen, v.v.).",
+          "grammar": "noun",
+          "translatedExamples": []
+        },
+        {
+          "id": "freedict-11",
+          "originalDefinition": "A boy or man who is weak or sentimental.",
+          "vietnameseDefinition": "Một cậu bé hoặc người đàn ông yếu đuối hoặc đa cảm.",
+          "grammar": "noun",
+          "translatedExamples": [
+            {
+              "original": "Don't be such a girl!",
+              "vietnamese": "- Đừng đàn bà như vậy chứ."
+            }
+          ]
+        },
+        {
+          "id": "freedict-12",
+          "originalDefinition": "To feminize or girlify; to gender as a girl or as for girls.",
+          "vietnameseDefinition": "To feminize or girlify; to gender as a girl or as for girls.",
+          "grammar": "verb",
+          "translatedExamples": []
+        },
+        {
+          "id": "freedict-13",
+          "originalDefinition": "(somewhat informal) To staff with or as a girl or girls.",
+          "vietnameseDefinition": "(hơi không chính thức) Cho nhân viên với hoặc như một cô gái hoặc cô gái.",
+          "grammar": "verb",
+          "translatedExamples": []
+        },
+        {
+          "id": "ID_00013599_01",
+          "originalDefinition": "a female child or young woman, especially one still at school:",
+          "vietnameseDefinition": "một trẻ em gái hoặc phụ nữ trẻ, đặc biệt là một người vẫn còn đi học:",
+          "level": "A1",
+          "grammar": "C",
+          "translatedExamples": [
+            {
+              "original": "Two girls showed us round the classrooms.",
+              "vietnamese": "Hai cô gái dẫn chúng tôi đi tham quan các lớp học."
+            }
+          ]
+        },
+        {
+          "id": "ID_00013599_02",
+          "originalDefinition": "a daughter:",
+          "vietnameseDefinition": "con gái:",
+          "level": "A1",
+          "grammar": "C",
+          "translatedExamples": [
+            {
+              "original": "We have two girls.",
+              "vietnamese": "Chúng tôi có hai cô con gái."
+            },
+            {
+              "original": "My little girl is five.",
+              "vietnamese": "Con gái nhỏ của tôi 5 tuổi."
+            }
+          ]
+        },
+        {
+          "id": "ID_00013599_03",
+          "originalDefinition": "a woman worker, especially when seen as one of a group:",
+          "vietnameseDefinition": "một lao động nữ, đặc biệt là khi được coi là một trong một nhóm:",
+          "grammar": "Cusually plural",
+          "translatedExamples": [
+            {
+              "original": "shop/office girls",
+              "vietnamese": "cô gái bán hàng/văn phòng"
+            }
+          ]
+        },
+        {
+          "id": "ID_00013599_04_panel",
+          "originalDefinition": "a group of female friends:",
+          "vietnameseDefinition": "một nhóm bạn nữ:",
+          "translatedExamples": [
+            {
+              "original": "I'm going out with the girls tonight.",
+              "vietnamese": "Tối nay tôi sẽ đi chơi với các cô gái."
+            }
+          ]
+        },
+        {
+          "id": "CACD_00007475_01",
+          "originalDefinition": "a female child or, more generally, a female of any age:",
+          "vietnameseDefinition": "một đứa trẻ gái hoặc, nói chung, một phụ nữ ở mọi lứa tuổi:",
+          "translatedExamples": [
+            {
+              "original": "Two little girls showed us around the kindergarten.",
+              "vietnamese": "Hai cô bé dẫn chúng tôi đi tham quan trường mẫu giáo."
+            },
+            {
+              "original": "The girls’ basketball team is undefeated.",
+              "vietnamese": "Đội bóng rổ nữ bất bại."
+            }
+          ]
+        },
+        {
+          "id": "CACD_00007475_02",
+          "originalDefinition": "Girl sometimes means daughter:",
+          "vietnameseDefinition": "Con gái đôi khi có nghĩa là con gái:",
+          "translatedExamples": [
+            {
+              "original": "We have two girls, a six-year-old and an eight-year-old.",
+              "vietnamese": "Chúng tôi có hai cô con gái, một sáu tuổi và một tám tuổi."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "word": "address",
+  "pronunciation": {
+    "uk": {
+      "ipa": "əˈdres",
+      "audioUrl": "https://dictionary.cambridge.org/media/english/uk_pron/u/uka/ukada/ukadapt021.mp3"
+    },
+    "us": {
+      "ipa": "ˈæd.res",
+      "audioUrl": "https://dictionary.cambridge.org/media/english/us_pron/e/eus/eus70/eus70074.mp3"
+    }
+  },
+  "partOfSpeech": "noun",
+  "level": null,
+  "quickTranslation": ["Địa chỉ"],
+  "meanings": [
+    {
+      "id": "cambridge-0",
+      "grammar": "noun",
+      "definition": "the number of the house, name of the road, and name of the town where a person lives or works, and where letters can be sent:",
+      "examples": [
+        {
+          "original": "her business/home address",
+          "vietnamese": "địa chỉ kinh doanh/nhà của cô ấy"
+        },
+        {
+          "original": "a change of address",
+          "vietnamese": "Thay đổi địa chỉ"
+        }
+      ],
+      "vietnameseDefinition": "Số lượng ngôi nhà, tên của con đường và tên của thị trấn nơi một người sống hoặc làm việc, và nơi có thể gửi thư:"
+    },
+    {
+      "id": "cambridge-1",
+      "grammar": "noun",
+      "definition": "a place where someone lives:",
+      "examples": [
+        {
+          "original": "Police searched an address in North London in connection with a drugs arrest.",
+          "vietnamese": "Cảnh sát đã tìm kiếm một địa chỉ ở Bắc London liên quan đến vụ bắt giữ ma túy."
+        }
+      ],
+      "vietnameseDefinition": "Một nơi mà ai đó sống:"
+    },
+    {
+      "id": "cambridge-2",
+      "grammar": "noun",
+      "definition": "a series of letters and symbols that tell you where to find something on the internet or show where an email is sent to:",
+      "examples": [
+        {
+          "original": "What's your email address?",
+          "vietnamese": "Địa chỉ email của bạn là gì?"
+        },
+        {
+          "original": "Do you have their Web address?",
+          "vietnamese": "Bạn có địa chỉ web của họ không?"
+        }
+      ],
+      "vietnameseDefinition": "Một loạt các chữ cái và biểu tượng cho bạn biết nơi để tìm một cái gì đó trên internet hoặc hiển thị nơi email được gửi đến:"
+    },
+    {
+      "id": "cambridge-3",
+      "grammar": "noun",
+      "definition": "the place where a piece of information is stored in a computer's memory",
+      "examples": [],
+      "vietnameseDefinition": "nơi lưu trữ một phần thông tin trong bộ nhớ máy tính"
+    },
+    {
+      "id": "cambridge-4",
+      "grammar": "noun",
+      "definition": "a formal speech:",
+      "examples": [
+        {
+          "original": "She gave an address to the Royal Academy.",
+          "vietnamese": "Cô đã đưa ra một địa chỉ cho Học viện Hoàng gia."
+        }
+      ],
+      "vietnameseDefinition": "một bài phát biểu chính thức:"
+    },
+    {
+      "id": "cambridge-5",
+      "grammar": "noun",
+      "definition": "to speak or write to someone:",
+      "examples": [
+        {
+          "original": "He addressed a few introductory remarks to the audience.",
+          "vietnamese": "Ông đã giải quyết một vài nhận xét giới thiệu cho khán giả."
+        },
+        {
+          "original": "You may address me as Ms Harris.",
+          "vietnamese": "Bạn có thể gọi tôi là cô Harris."
+        },
+        {
+          "original": "He likes to be addressed as \"Sir\" or \"Mr Partridge\".",
+          "vietnamese": ""
+        }
+      ],
+      "vietnameseDefinition": "để nói hoặc viết cho ai đó:"
+    },
+    {
+      "id": "cambridge-6",
+      "grammar": "noun",
+      "definition": "to give attention to or deal with a matter or problem:",
+      "examples": [
+        {
+          "original": "The issue of funding has yet to be addressed.",
+          "vietnamese": "Vấn đề tài trợ vẫn chưa được giải quyết."
+        }
+      ],
+      "vietnameseDefinition": "Để chú ý hoặc giải quyết vấn đề hoặc vấn đề:"
+    },
+    {
+      "id": "cambridge-7",
+      "grammar": "noun",
+      "definition": "to write a name or address on an envelope or parcel:",
+      "examples": [
+        {
+          "original": "Put the cheque in an envelope and address it to John Smith.",
+          "vietnamese": "Đặt séc trong một phong bì và giải quyết nó cho John Smith."
+        },
+        {
+          "original": "So why did you open a letter that was addressed to me?",
+          "vietnamese": "Vậy tại sao bạn lại mở một lá thư được gửi cho tôi?"
+        },
+        {
+          "original": "The parcel was wrongly addressed.",
+          "vietnamese": ""
+        }
+      ],
+      "vietnameseDefinition": "để viết một tên hoặc địa chỉ trên một phong bì hoặc bưu kiện:"
+    },
+    {
+      "id": "cambridge-8",
+      "grammar": "noun",
+      "definition": "to stand in position before hitting a golf ball or shooting at a target:",
+      "examples": [
+        {
+          "original": "Try to make sure that you are well balanced when you address the ball.",
+          "vietnamese": "Cố gắng đảm bảo rằng bạn được cân bằng tốt khi bạn giải quyết bóng."
+        },
+        {
+          "original": "The archers have to straddle the line when they address the target.",
+          "vietnamese": "Các cung thủ phải đứng trên đường khi họ giải quyết mục tiêu."
+        }
+      ],
+      "vietnameseDefinition": "đứng ở vị trí trước khi đánh bóng golf hoặc bắn vào mục tiêu:"
+    },
+    {
+      "id": "cambridge-9",
+      "grammar": "noun",
+      "definition": "the specific place where a person, business, or organization can be found and where mail can be received:",
+      "examples": [
+        {
+          "original": "What is your street address now?",
+          "vietnamese": "Địa chỉ đường phố của bạn bây giờ là gì?"
+        },
+        {
+          "original": "I need your home and your business address.",
+          "vietnamese": "I need your home and your business address."
+        }
+      ],
+      "vietnameseDefinition": "Nơi cụ thể mà một người, doanh nghiệp hoặc tổ chức có thể được tìm thấy và nơi có thể nhận được thư:"
+    }
+  ]
+}
